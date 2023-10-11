@@ -2,8 +2,8 @@
   <h1> Buscar Pokemon: {{ pokemonId }}</h1>
 
   <form @submit.prevent="onSubmit">
-    <input type="number" placeholder="Numero de Pokemon" re="txSearchId"
-    v-model="pokemonId"/>
+    <input type="number" placeholder="Numero de Pokemon" ref="txSearchId"
+    v-model="pokemonId" />
   </form>
   <br>
   <span>Enter para realizar busqueda</span>
